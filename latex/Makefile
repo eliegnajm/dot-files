@@ -1,0 +1,9 @@
+NAME = NameOfPdf
+OBJDIR = out
+
+install: $(THREADOBJECTS)
+	gnome-terminal --full-screen --window-with-profile=Coding -x vim main.tex
+	latexmk -pdf -bibtex -jobname=$(NAME) -view=pdf -pvc main.tex
+clean:
+	latexmk -CA
+	rm ./out/*
