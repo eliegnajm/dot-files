@@ -3,7 +3,12 @@ runVi ()
 {
     x=$(echo $1 | cut -d '.' -f 2)
     if [ $x = tex ]; then
-        make
+        x=$(echo $1 | cut -d '.' -f 1)
+        if [ $x = main ]; then
+            make
+        else   
+            gnome-terminal --full-screen --window-with-profile=Coding -x vim $1
+        fi
     else   
         gnome-terminal --full-screen --window-with-profile=Coding -x vim $1
     fi
