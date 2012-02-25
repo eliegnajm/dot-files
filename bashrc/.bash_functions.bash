@@ -7,10 +7,10 @@ runVi ()
         if [ $x = main ]; then
             make
         else   
-            gnome-terminal --full-screen --window-with-profile=Coding -x vim $1
+            gnome-terminal --maximize --window-with-profile=Coding -x vim $1
         fi
     else   
-        gnome-terminal --full-screen --window-with-profile=Coding -x vim $1
+        gnome-terminal --maximize --window-with-profile=Coding -x vim $1
     fi
 }
 
