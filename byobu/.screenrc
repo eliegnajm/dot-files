@@ -1,0 +1,16 @@
+# ESC ESC calls meta
+#  escape ,,
+bindkey ; command
+
+bind e prev
+
+
+# ESC o calls other
+bind o other
+
+bind s command -c split_class
+bind -c split_class h split
+bind -c split_class v split -v
+
+#  bind -c demo1 s screen mc "/media/Data/Turgon realm/Study/AUB/Spring 2010-2011"
+#  bindkey "^B" command -c demo1

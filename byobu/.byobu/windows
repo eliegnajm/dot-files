@@ -1,0 +1,7 @@
+# Default windows examples
+#screen -t notify-osd -M tail -f $HOME/.cache/notify-osd.log
+#screen -t top top
+#screen -t web w3m
+#screen -t shell byobu-shell
+screen -t "Home" 1 byobu-shell
+screen -t "music player" 4 ncmpcpp
