@@ -1,12 +1,10 @@
 # ESC ESC calls meta
 #  escape ,,
-bindkey ; command
+bindkey , command
 
-bind e prev
+bind e next
+bind q prev
 
-
-# ESC o calls other
-bind o other
 
 bind s command -c split_class
 bind -c split_class h split
