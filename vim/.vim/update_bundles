@@ -12,10 +12,10 @@ git_bundles = %w{
   git://github.com/abudden/TagHighlight.git
   git://github.com/garbas/vim-showmarks.git
 
-  git clone git://github.com/garbas/vim-snipmate.git
-  git clone https://github.com/tomtom/tlib_vim.git
-  git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
-  git clone https://github.com/honza/snipmate-snippets.git
+  git://github.com/garbas/vim-snipmate.git
+  git://github.com/MarcWeber/vim-addon-mw-utils.git
+  git://github.com/tomtom/tcommand_vim.git
+  git://github.com/tUrG0n/snipmate-snippets.git
 }
 
 require 'fileutils'

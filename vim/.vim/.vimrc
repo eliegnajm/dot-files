@@ -376,10 +376,7 @@ vmap <F8> <ESC>:call AddAbbr()<CR>
 
 fun AddAbbr()
     normal byw
-    let StringChar = lh#visual#selection()
-    "where lh#visual#selection() is a function you have to download from here :
-    "http://lh-vim.googlecode.com/svn/vim-lib/tags/2.2.1/autoload/lh/visual.vim
-    "and then, to put in your .vim/autoload directory.
+    let StringChar = visual#selection()
     let val = input("Enter the abbreviation you wish to use for '" . StringChar . "' :")
     exec "ia" StringChar val
     silent call SaveAbbr(StringChar, val)
