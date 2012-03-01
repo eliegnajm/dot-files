@@ -202,6 +202,9 @@ vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
 noremap <f1> :bprev<CR>
 noremap <f2> :bnext<CR> 
 
+" Remaps Vsplit to vsplit. I dunno why Vsplit is here in the first place! :P
+cmap Vsplit vsplit
+
 " ------------------------------------------------------------------ 
 " Desc: Only do this part when compiled with support for autocommands.
 " ------------------------------------------------------------------ 

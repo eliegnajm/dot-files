@@ -7,18 +7,13 @@ runVi ()
         if [ $x = main ]; then
             make
         else   
-            gnome-terminal --maximize --window-with-profile=Coding -x vim $1
+            gvim $1
         fi
     else   
-        gnome-terminal --maximize --window-with-profile=Coding -x vim $1
+        gvim $1
     fi
 }
 
-octaveServer ()
-{
-    gnome-terminal --full-screen -t 'octave' -x perl ~/.vim/ftplugin/funnel.pl ~/.o-pipe octave&
-    exit
-}
 
 genpasswd() 
 {
