@@ -203,7 +203,7 @@ noremap <f1> :bprev<CR>
 noremap <f2> :bnext<CR> 
 
 " Remaps Vsplit to vsplit. I dunno why Vsplit is here in the first place! :P
-cmap Vsplit vsplit
+cmap vsplit <Nop>
 
 " ------------------------------------------------------------------ 
 " Desc: Only do this part when compiled with support for autocommands.

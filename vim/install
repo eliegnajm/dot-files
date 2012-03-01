@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+DIR=$(pwd)
+
+# First clean .vim and .vimrc
+rm -rv ~/.vim/
+rm -rv ~/.vimrc
+    
+# VIM
+ln -s $DIR/.vim ~/
+ln -s $DIR/.vimrc ~/
+
+./.vim/update_bundles

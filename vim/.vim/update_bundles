@@ -18,6 +18,12 @@ git_bundles = %w{
 
   git://git.wincent.com/command-t.git
 
+  git://github.com/vim-scripts/vimwiki.git
+
+  git://github.com/samsonw/vim-task.git
+
+  git://github.com/vim-scripts/AutoComplPop.git
+
   git://github.com/garbas/vim-snipmate.git
   git://github.com/tUrG0n/snipmate-snippets.git
   git://github.com/MarcWeber/vim-addon-mw-utils.git
