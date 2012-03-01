@@ -14,6 +14,8 @@ git_bundles = %w{
 
   git://github.com/gerw/vim-latex-suite.git
 
+  git://github.com/pangloss/vim-javascript.git
+
   git://git.wincent.com/command-t.git
 
   git://github.com/garbas/vim-snipmate.git
