@@ -8,5 +8,5 @@ Installation
 ------------
 In order to install this version of vim, make sure you have backed up your .vim/ and .vimrc.
 They will be deleted by this script.
-Next, run the install script located in this directory. If all goes well, you
+Next, run the install script located in this directory. 
 
